@@ -1,0 +1,22 @@
+---
+# Front matter to ensure Jekyll processes this file.
+---
+
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.site-container {
+    max-width: none !important;
+}
+
+.page-content {
+    max-width: none !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-content-wrap {
+    max-width: none !important;
+}

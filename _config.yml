@@ -1,3 +1,11 @@
 title: Terraform Learning Documentation
 description: A personal learning journey through Terraform, with examples and explanations.
-theme: jekyll-theme-minimal
+remote_theme: just-the-docs
+
+# Enable or disable the sidebar in posts. By default, it is enabled.
+# If you wish to disable the sidebar, uncomment the following line and set it to false:
+# sidebar: false
+
+# Custom head HTML to include custom CSS overrides.
+head_html: |
+  {% include head_custom.html %}
