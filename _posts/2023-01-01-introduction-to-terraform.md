@@ -64,3 +64,18 @@ _This is an example of an image from the `assets/images` folder._
 
 ![Commands]({{ "/assets/images/Commands.png" | relative_url }})
 _This is an example of an image from the `assets/images` folder._
+
+![Variables]({{ "/assets/images/Variables.png" | relative_url }})
+_This is an example of an image from the `assets/images` folder._
+
+![Dependencies]({{ "/assets/images/𝗗𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗲𝘀.png" | relative_url }})
+_This is an example of an image from the `assets/images` folder._
+
+![Module]({{ "/assets/images/Module.jpg" | relative_url }})
+_This is an example of an image from the `assets/images` folder._
+
+![State File]({{ "/assets/images/statefile.jpg" | relative_url }})
+_This is an example of an image from the `assets/images` folder._
+
+![Commands 40]({{ "/assets/images/commands40.jpg" | relative_url }})
+_This is an example of an image from the `assets/images` folder._
