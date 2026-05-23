@@ -61,3 +61,6 @@ _This is an example of an image from the `assets/images` folder._
 
 ![Functions and loops]({{ "/assets/images/Functions and loops.png" | relative_url }})
 _This is an example of an image from the `assets/images` folder._
+
+![Commands]({{ "/assets/images/Commands.png" | relative_url }})
+_This is an example of an image from the `assets/images` folder._
