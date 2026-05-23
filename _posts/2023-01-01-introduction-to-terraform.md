@@ -56,26 +56,34 @@ This example defines an S3 bucket in AWS.
 - Set up your AWS credentials
 - Try deploying this example!
 
-![Terraform Logo]({{ "/assets/images/terraform-logo.png" | relative_url }})
-_This is an example of an image from the `assets/images` folder._
-
 ![Functions and loops]({{ "/assets/images/Functions and loops.png" | relative_url }})
 _This is an example of an image from the `assets/images` folder._
 
 ![Commands]({{ "/assets/images/Commands.png" | relative_url }})
-_This is an example of an image from the `assets/images` folder._
 
 ![Variables]({{ "/assets/images/Variables.png" | relative_url }})
-_This is an example of an image from the `assets/images` folder._
+
 
 ![Dependencies]({{ "/assets/images/𝗗𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗲𝘀.png" | relative_url }})
-_This is an example of an image from the `assets/images` folder._
+
 
 ![Module]({{ "/assets/images/Module.jpg" | relative_url }})
-_This is an example of an image from the `assets/images` folder._
+
 
 ![State File]({{ "/assets/images/statefile.jpg" | relative_url }})
-_This is an example of an image from the `assets/images` folder._
+
 
 ![Commands 40]({{ "/assets/images/commands40.jpg" | relative_url }})
-_This is an example of an image from the `assets/images` folder._
+
+
+![Essential Commands]({{ "/assets/images/Essential Commands.jpg" | relative_url }})
+
+
+![State File 1]({{ "/assets/images/stateFile1.jpg" | relative_url }})
+
+
+![State Management]({{ "/assets/images/stateManagement" | relative_url }})
+
+
+![Variables 1]({{ "/assets/images/variables1.jpg" | relative_url }})
+
