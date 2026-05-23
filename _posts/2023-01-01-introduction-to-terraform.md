@@ -58,3 +58,6 @@ This example defines an S3 bucket in AWS.
 
 ![Terraform Logo]({{ "/assets/images/terraform-logo.png" | relative_url }})
 _This is an example of an image from the `assets/images` folder._
+
+![Functions and loops]({{ "/assets/images/Functions and loops.png" | relative_url }})
+_This is an example of an image from the `assets/images` folder._
