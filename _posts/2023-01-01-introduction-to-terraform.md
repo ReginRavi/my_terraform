@@ -2,6 +2,7 @@
 layout: default
 title: Introduction to Terraform
 date: 2023-01-01 10:00:00 +0000
+permalink: /2023-01-01-introduction-to-terraform/
 categories: terraform
 tags: [introduction, infrastructure-as-code]
 ---
@@ -55,5 +56,5 @@ This example defines an S3 bucket in AWS.
 - Set up your AWS credentials
 - Try deploying this example!
 
-![Terraform Logo](/assets/images/terraform-logo.png)
+![Terraform Logo]({{ "/assets/images/terraform-logo.png" | relative_url }})
 _This is an example of an image from the `assets/images` folder._

@@ -1,6 +1,8 @@
 title: Terraform Learning Documentation
 description: A personal learning journey through Terraform, with examples and explanations.
 remote_theme: just-the-docs
+url: "https://reginravi.github.io"
+baseurl: "/my_terraform"
 
 # Enable or disable the sidebar in posts. By default, it is enabled.
 # If you wish to disable the sidebar, uncomment the following line and set it to false:
