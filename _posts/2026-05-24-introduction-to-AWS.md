@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AWS Certified AI Practitioner (AIF-C01) Guide
-date: 2026-05-24 10:00:00 +0000
+date: 2026-05-24 02:00:00 +0000
 permalink: /2026-05-24-introduction-to-AWS/
 categories: AWS
 tags: [AWS, AI, Machine-Learning, Certification]
