@@ -82,7 +82,4 @@ _This is an example of an image from the `assets/images/terraform` folder._
 ![State File 1]({{ "/assets/images/terraform/stateFile1.jpg" | relative_url }})
 
 
-![State Management]({{ "/assets/images/terraform/stateManagement" | relative_url }})
-
-
 ![Variables 1]({{ "/assets/images/terraform/variables1.jpg" | relative_url }})
