@@ -56,34 +56,33 @@ This example defines an S3 bucket in AWS.
 - Set up your AWS credentials
 - Try deploying this example!
 
-![Functions and loops]({{ "/assets/images/Functions and loops.png" | relative_url }})
-_This is an example of an image from the `assets/images` folder._
+![Functions and loops]({{ "/assets/images/terraform/Functions and loops.png" | relative_url }})
+_This is an example of an image from the `assets/images/terraform` folder._
 
-![Commands]({{ "/assets/images/Commands.png" | relative_url }})
+![Commands]({{ "/assets/images/terraform/Commands.png" | relative_url }})
 
-![Variables]({{ "/assets/images/Variables.png" | relative_url }})
-
-
-![Dependencies]({{ "/assets/images/𝗗𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗲𝘀.png" | relative_url }})
+![Variables]({{ "/assets/images/terraform/Variables.png" | relative_url }})
 
 
-![Module]({{ "/assets/images/Module.jpg" | relative_url }})
+![Dependencies]({{ "/assets/images/terraform/𝗗𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗲𝘀.png" | relative_url }})
 
 
-![State File]({{ "/assets/images/statefile.jpg" | relative_url }})
+![Module]({{ "/assets/images/terraform/Module.jpg" | relative_url }})
 
 
-![Commands 40]({{ "/assets/images/commands40.jpg" | relative_url }})
+![State File]({{ "/assets/images/terraform/statefile.jpg" | relative_url }})
 
 
-![Essential Commands]({{ "/assets/images/Essential Commands.jpg" | relative_url }})
+![Commands 40]({{ "/assets/images/terraform/commands40.jpg" | relative_url }})
 
 
-![State File 1]({{ "/assets/images/stateFile1.jpg" | relative_url }})
+![Essential Commands]({{ "/assets/images/terraform/Essential Commands.jpg" | relative_url }})
 
 
-![State Management]({{ "/assets/images/stateManagement" | relative_url }})
+![State File 1]({{ "/assets/images/terraform/stateFile1.jpg" | relative_url }})
 
 
-![Variables 1]({{ "/assets/images/variables1.jpg" | relative_url }})
+![State Management]({{ "/assets/images/terraform/stateManagement" | relative_url }})
 
+
+![Variables 1]({{ "/assets/images/terraform/variables1.jpg" | relative_url }})
