@@ -195,6 +195,17 @@ A summary of common end-to-end migration scenarios supported by AWS DMS:
 
 ---
 
+### 🛡️ AWS Backup Centralized Workflow
+AWS Backup provides a fully managed, policy-based service that simplifies backup management at scale, enabling centralized control over backup and restore workflows.
+
+![AWS Backup: Centralized Backup and Restore Workflow]({{ "/assets/images/AWS/aws_backup.png" | relative_url }})
+
+* **Backup Sources**: Supports computing (EC2, EBS), databases (RDS, Aurora, DynamoDB), storage (S3, EFS), on-premises servers (via Storage Gateway), and hybrid environments (SSM, CloudFormation).
+* **Central Control**: The AWS Backup Service coordinates definitions, policy execution, scheduling, retention, and auditing.
+* **Storage & Recovery**: Backups are secured in encrypted, immutable Backup Vaults, with options for cross-region replication and point-in-time restore (PITR).
+
+---
+
 ## Preparation Tips
 
 * 📘 **AWS Skill Builder**: AWS offers a free **"Standard Exam Prep Plan"** which includes digital training and sample questions.
