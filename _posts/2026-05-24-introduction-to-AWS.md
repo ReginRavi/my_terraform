@@ -205,9 +205,3 @@ AWS Backup provides a fully managed, policy-based service that simplifies backup
 * **Storage & Recovery**: Backups are secured in encrypted, immutable Backup Vaults, with options for cross-region replication and point-in-time restore (PITR).
 
 ---
-
-## Preparation Tips
-
-* 📘 **AWS Skill Builder**: AWS offers a free **"Standard Exam Prep Plan"** which includes digital training and sample questions.
-* 🚫 **No Coding Required**: Unlike the "Machine Learning Engineer" exam, you will not be asked to write Python or tune hyperparameters. Focus on business logic and service selection.
-* 🎟️ **Recertification**: If you already hold the AWS Cloud Practitioner or an Associate certification, you can use your **50% discount voucher** for this exam.
