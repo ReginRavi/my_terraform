@@ -205,3 +205,83 @@ AWS Backup provides a fully managed, policy-based service that simplifies backup
 * **Storage & Recovery**: Backups are secured in encrypted, immutable Backup Vaults, with options for cross-region replication and point-in-time restore (PITR).
 
 ---
+
+Transfer data in single s3 bucket from global – s3 transfer acceleration
+
+Analyze/query data in s3- amazon athena
+
+Ec2 private access from vpc to s3- vpc gateway endpoint
+
+Ebs instance in multi az need storage- EFS
+
+Transfer large amount data within 2 weeks – months etc- snowball devices
+
+Decouple application- SQS
+
+Storage class s3
+
+Serverless compute- lambda (15 min)
+
+Serverless microservice architecture- ECS with Fargate
+
+Need to store key along with automatic rotation- secret manager
+
+Store static/dynamic global application- cloudfront with s3
+
+Relational db option for serverless- aurora
+
+More read needed in RDS- RDS read replica
+
+Data visualization- amazon quicksight
+
+Temporary secure access- IAM role
+
+Virtual firewall appliances- gateway LB
+
+Connection drain in rds too much load in DB- RDS proxy
+
+Configuration changes- aws config
+
+Voice over Internet protocol, UDP- Network Load Balancer, Global accelerator
+
+Real time, near real time- KDS, KDF
+
+Amazon Appflow- SaaS to s3
+
+Amazon AppFlow is an integration service that enables you to securely transfer data between SaaS applications and AWS services without code.
+
+Security assesment of ec2 instance- AWS Inspector
+
+Application – image should not have inappropriate content- Amazon Recognition
+
+ML? UDEMY? Textract, Comprehend, transcribe, translate
+
+ACM- certificate manager-import the cert SSL/TLS cert
+
+Hybrid- DC can use VPN backup
+
+API- SQS- Lambda-Dynamodb
+
+Retain data 7 years – aws backup
+
+Amazon FSx read little HPC- Lustre windows ,appl- window
+
+DDOS- Aws shield
+
+Sql injection, cross site- WAF
+
+AWS glue- data integration
+
+AWS Org- SCP
+
+Guardials across multiple account- AWS control tower
+
+S3 object lock- governance (some can access with permission), compliance (no users can access manipulate data)
+
+SFTP to upload files- aws transfer family
+
+url swapping, rolling deploy, blue green etc-elastic beanstalk
+
+aws cognito- user, identity pool
+
+session data management/cache- elasticache
