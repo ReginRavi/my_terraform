@@ -285,3 +285,5 @@ url swapping, rolling deploy, blue green etc-elastic beanstalk
 aws cognito- user, identity pool
 
 session data management/cache- elasticache
+
+___
