@@ -111,7 +111,7 @@ In addition to foundational AI/ML services, a well-rounded AWS practitioner shou
 ### 🏛️ Enterprise Application Architecture
 A high-level multi-tier enterprise architecture on AWS organizes resources into distinct zones: User Access, Data Ingestion, Application Processing, and Data Persistence.
 
-![Enterprise Application Architecture]({{ "/assets/images/AWS/aws_enterprise_architecture.png" | relative_url }})
+![Enterprise Application Architecture](../assets/images/AWS/aws_enterprise_architecture.png)
 
 * **Zone 1: User Access & Clients**: Employs user devices and web browsers routed securely through Route 53, CloudFront, and Web Application Firewall (WAF).
 * **Zone 2: Data Ingestion & Interface**: Utilizes EventBridge, Load Balancers, and EC2 Application Servers.
@@ -123,7 +123,7 @@ A high-level multi-tier enterprise architecture on AWS organizes resources into 
 ### ⚡ Serverless Event Processing Workflow
 Serverless architectures leverage event-driven components to ingest, route, process, and store streaming data without managing servers.
 
-![Serverless Event Processing Workflow]({{ "/assets/images/AWS/aws_serverless_event_processing.png" | relative_url }})
+![Serverless Event Processing Workflow](../assets/images/AWS/aws_serverless_event_processing.png)
 
 * **Event Ingestion & Routing**: Uses Amazon EventBridge for event routing and Amazon S3 or Kinesis Data Streams for high-throughput ingestion.
 * **Event Processing & Enrichment**: Employs AWS Lambda functions for real-time computation and data processing.
@@ -134,7 +134,7 @@ Serverless architectures leverage event-driven components to ingest, route, proc
 ### 💾 AWS Caching Strategies
 Caching improves response latency and reduces load on database tiers. Different use cases warrant different caching strategies:
 
-![AWS Caching Strategies]({{ "/assets/images/AWS/aws_caching_strategies.png" | relative_url }})
+![AWS Caching Strategies](../assets/images/AWS/aws_caching_strategies.png)
 
 * **Cache-Aside (Side-Cache)**: The application checks the cache first. On a miss, it queries the database and updates the cache.
 * **Read-Through**: The application queries the cache, and the cache automatically fetches from the database on a miss (e.g., DynamoDB Accelerator - DAX).
@@ -147,7 +147,7 @@ Caching improves response latency and reduces load on database tiers. Different 
 AWS DMS helps migrate databases to AWS quickly and securely. It supports both homogeneous (same engine) and heterogeneous (different engine) migrations.
 
 #### DMS Migration Workflow
-![AWS DMS Migration Workflow]({{ "/assets/images/AWS/aws_dms_migration_workflow.png" | relative_url }})
+![AWS DMS Migration Workflow](../assets/images/AWS/aws_dms_migration_workflow.png)
 
 1. **Source Data Environments**: Supports homogeneous (RDS PostgreSQL) or heterogeneous (Oracle, SQL Server) source databases.
 2. **AWS Replication Engine**: A replication instance processes schema conversion (via SCT) and data migration, using Change Data Capture (CDC) for ongoing replication.
@@ -156,18 +156,18 @@ AWS DMS helps migrate databases to AWS quickly and securely. It supports both ho
 
 #### DMS Monitoring & Alerts Variant
 A variation of the DMS workflow tailored for enhanced monitoring and logging:
-![AWS DMS Monitoring & Alerts]({{ "/assets/images/AWS/aws_dms_monitoring_alerts.png" | relative_url }})
+![AWS DMS Monitoring & Alerts](../assets/images/AWS/aws_dms_monitoring_alerts.png)
 
 #### Common DMS Migration Flows
 A summary of common end-to-end migration scenarios supported by AWS DMS:
-![AWS DMS Migration Flows]({{ "/assets/images/AWS/aws_dms_migration_flows.png" | relative_url }})
+![AWS DMS Migration Flows](../assets/images/AWS/aws_dms_migration_flows.png)
 
 ---
 
 ### 🛡️ AWS Backup Centralized Workflow
 AWS Backup provides a fully managed, policy-based service that simplifies backup management at scale, enabling centralized control over backup and restore workflows.
 
-![AWS Backup: Centralized Backup and Restore Workflow]({{ "/assets/images/AWS/aws_backup.png" | relative_url }})
+![AWS Backup: Centralized Backup and Restore Workflow](../assets/images/AWS/aws_backup.png)
 
 * **Backup Sources**: Supports computing (EC2, EBS), databases (RDS, Aurora, DynamoDB), storage (S3, EFS), on-premises servers (via Storage Gateway), and hybrid environments (SSM, CloudFormation).
 * **Central Control**: The AWS Backup Service coordinates definitions, policy execution, scheduling, retention, and auditing.
@@ -175,4 +175,4 @@ AWS Backup provides a fully managed, policy-based service that simplifies backup
 
 ---
 
-![Latency GIF]({{ "/assets/images/AWS/latency.gif" | relative_url }})
+![Latency GIF](../assets/images/AWS/latency.gif)
