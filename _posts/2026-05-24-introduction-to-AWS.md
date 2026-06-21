@@ -176,3 +176,5 @@ AWS Backup provides a fully managed, policy-based service that simplifies backup
 ---
 
 ![Latency GIF](../assets/images/AWS/latency.gif)
+
+![SQS](../assets/images/AWS/SQS.png)
