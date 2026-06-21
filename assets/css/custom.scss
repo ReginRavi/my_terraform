@@ -20,3 +20,39 @@ html, body {
 .main-content-wrap {
     max-width: none !important;
 }
+
+/* Premium styled callouts for questions (orange) and answers (green) */
+.exam-question {
+    color: #b24d00 !important; /* Readable dark orange */
+    background-color: #fff8f2 !important; /* Very soft light orange tint */
+    border-left: 4px solid #ff7700 !important; /* Bold orange left accent line */
+    padding: 14px 18px !important;
+    border-radius: 6px !important;
+    margin-top: 12px !important;
+    margin-bottom: 16px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+}
+
+.exam-answer {
+    color: #1e5a34 !important; /* Readable dark green */
+    background-color: #f3faf5 !important; /* Very soft light green tint */
+    border-left: 4px solid #2ecc71 !important; /* Bold green left accent line */
+    padding: 14px 18px !important;
+    border-radius: 6px !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05) !important;
+}
+
+/* Ensure inner paragraphs and lists behave correctly inside markdown-rendered divs */
+.exam-question p, .exam-answer p {
+    margin: 0 0 8px 0 !important;
+}
+.exam-question p:last-child, .exam-answer p:last-child {
+    margin-bottom: 0 !important;
+}
+.exam-answer ul, .exam-answer ol {
+    margin-top: 8px !important;
+    margin-bottom: 0 !important;
+}
+
