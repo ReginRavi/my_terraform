@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <style>
+    .box{fill:#ffffff;stroke:#2b6cb0;stroke-width:2;rx:6;}
+    .label{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0b3a66}
+    .title{font-size:16px;font-weight:bold}
+    .arrow{stroke:#2b6cb0;stroke-width:2;fill:none;marker-end:url(#arrowhead)}
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2b6cb0" />
+    </marker>
+  </defs>
+
+  <rect x="20" y="40" width="160" height="60" class="box" rx="8"/>
+  <text x="100" y="75" text-anchor="middle" class="label title">Client App</text>
+
+  <rect x="220" y="20" width="200" height="100" class="box" rx="8"/>
+  <text x="320" y="50" text-anchor="middle" class="label title">API Gateway / Lambda</text>
+  <text x="320" y="70" text-anchor="middle" class="label">Auth (IAM) / Pre-processing</text>
+
+  <rect x="460" y="40" width="220" height="100" class="box" rx="8"/>
+  <text x="570" y="75" text-anchor="middle" class="label title">Amazon Bedrock</text>
+  <text x="570" y="95" text-anchor="middle" class="label">(Foundation Models / Inference)</text>
+
+  <rect x="720" y="20" width="150" height="60" class="box" rx="8"/>
+  <text x="795" y="50" text-anchor="middle" class="label">Vector DB / Kendra</text>
+
+  <rect x="460" y="160" width="150" height="60" class="box" rx="8"/>
+  <text x="535" y="195" text-anchor="middle" class="label">S3 (Audit / Prompts)</text>
+
+  <rect x="630" y="160" width="200" height="60" class="box" rx="8"/>
+  <text x="730" y="195" text-anchor="middle" class="label">CloudWatch (Metrics / Logs)</text>
+
+  <!-- arrows -->
+  <path d="M180 70 L220 70" class="arrow" />
+  <path d="M420 70 L460 70" class="arrow" />
+  <path d="M680 70 L720 50" class="arrow" />
+  <path d="M570 140 L570 160" class="arrow" />
+  <path d="M610 140 L730 160" class="arrow" />
+
+  <!-- footnote -->
+  <text x="20" y="330" class="label">Diagram: Simple Bedrock integration (Client → API → Bedrock → VectorDB / S3 / CloudWatch).</text>
+</svg>
