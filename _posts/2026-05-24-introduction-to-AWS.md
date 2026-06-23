@@ -180,3 +180,6 @@ AWS Backup provides a fully managed, policy-based service that simplifies backup
 ![SQS](../assets/images/AWS/SQS.png)
 
 ![SQS1](../assets/images/AWS/sqs1.png)
+
+![AWS Systems Manager Parameter Store workflow](../assets/images/AWS/AWS%20Systems%20Manager%20Parameter%20Store%20workflow.png)
+
