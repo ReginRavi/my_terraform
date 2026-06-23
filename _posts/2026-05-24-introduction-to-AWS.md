@@ -183,3 +183,27 @@ AWS Backup provides a fully managed, policy-based service that simplifies backup
 
 ![AWS Systems Manager Parameter Store workflow](../assets/images/AWS/AWS%20Systems%20Manager%20Parameter%20Store%20workflow.png)
 
+![Auto Scaling](../assets/images/AWS/auto_scaling.jpg)
+
+![CloudFront](../assets/images/AWS/cloudfront.jpg)
+
+![CloudWatch](../assets/images/AWS/cloudwatch.jpg)
+
+![EC2](../assets/images/AWS/EC2.jpg)
+
+![IAM](../assets/images/AWS/IAM.jpg)
+
+![Lambda](../assets/images/AWS/lambda.jpg)
+
+![Load Balancer](../assets/images/AWS/load_balancer.jpg)
+
+![RDS](../assets/images/AWS/rds.jpg)
+
+![Route 53](../assets/images/AWS/route53.jpg)
+
+![S3](../assets/images/AWS/S3.jpg)
+
+![Security Group](../assets/images/AWS/security_group.jpg)
+
+![VPC](../assets/images/AWS/VPC.jpg)
+
